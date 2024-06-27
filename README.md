@@ -11,24 +11,28 @@ This repository contains automated tests for the Selenium Easy demo site (https:
 
 **Installation**
 1. Clone the repository:
-git clone https://github.com/Horbarz/quidaxQATest.git
-cd quidaxQATest
+
+`git clone https://github.com/Horbarz/quidaxQATest.git`
+`cd quidaxQATest`
+
 
 2. Install the dependencies:
-npm install
+
+`npm install`
 
 **Running the Tests**
 To run the automated tests, follow these steps:
 
 **Run Tests in Cypress Test Runner**
 1. Open Cypress Test Runner:
-npx cypress open
+
+`npx cypress open`
 
 2. In the Cypress Test Runner, click on the test you want to run. This will open a browser and execute the selected test, displaying the results in real-time.
 
 **Run Tests in Headless Mode**
 1. Execute all tests in headless mode:
-npx cypress run
+`npx cypress run`
 
 
 
